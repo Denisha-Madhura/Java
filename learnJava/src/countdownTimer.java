@@ -24,5 +24,7 @@ public class countdownTimer {
         };
 
         timer.scheduleAtFixedRate(task, 0, 1000); //(task, delay, period)
+
+        scanner.close();
     }
 }
